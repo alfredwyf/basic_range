@@ -3,4 +3,4 @@ import random
 
 for i in range(100):
 	r = random.randint(1, 1000)
-	print("it is the", i + 1, "times random number generated")
+	print(r, "is the", i + 1, "times random number generated")
